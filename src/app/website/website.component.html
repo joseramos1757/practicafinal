@@ -1,0 +1,24 @@
+<p>website works!</p>
+
+<footer>
+    MODULO PRUEBA
+</footer>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            TITULO
+        </th>
+        <th>
+            BODY
+        </th>
+    </tr>
+    <tr *ngFor="let item of posts">
+        <td>
+                {{item.title}}
+        </td>
+        <td>
+                {{item.body}}
+        </td>
+
+    </tr>
+</table>
